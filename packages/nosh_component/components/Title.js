@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 });
 
 const Title = ({title}) => (
-  <Text style={[styles.text]}>{title}</Text>
+  <Text style={[styles.text]}>{title + "234"}</Text>
 );
 
 Title.defaultProps = {
