@@ -1,6 +1,5 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
-import Text from '../Text';
+import {StyleSheet, Text} from 'react-native';
 
 const styles = StyleSheet.create({
   text: {
@@ -9,8 +8,8 @@ const styles = StyleSheet.create({
   },
 });
 
-const Title = ({style, ...rest}) => (
-  <Text style={[styles.text, style]} {...rest} />
+const Title = ({title}) => (
+  <Text style={[styles.text]}>{title}</Text>
 );
 
 Title.defaultProps = {
