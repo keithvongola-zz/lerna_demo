@@ -1,13 +1,13 @@
 {
   "name": "Nosh",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
-    "nosh-component": "^0.0.7",
+    "nosh-component": "^0.0.8",
     "react": "16.8.3",
     "react-native": "0.59.5"
   },
